@@ -1,0 +1,8 @@
+%name GateLib Library
+%desc Selected GateLib files
+
+%provides gatelib
+
+%attributes gatelib
+
+%public Counter.v FIFOControl.v FIFOSemaphore.v Gray2Bin.v HardRegister.v Register.v ShiftRegister.v

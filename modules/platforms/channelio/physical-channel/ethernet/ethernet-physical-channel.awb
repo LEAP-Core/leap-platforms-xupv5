@@ -1,0 +1,9 @@
+
+%name Ethernet-based Physical Channel
+%desc Ethernet-based Physical Channel
+
+%provides physical_channel
+
+%public  ethernet-channel.bsv
+%public  ethernet-channel.h
+%private ethernet-channel.cpp

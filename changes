@@ -1,0 +1,104 @@
+
+----------
+pellauer    Date: Tue Mar 31 17:40:24 EDT 2009  CSN: CSN-platforms-xupv5-2
+                  Tue Mar 31 21:40:24 UTC 2009
+
+
+Directory modules/platforms
+ channelio/                Locally Added               0 
+
+Directory modules/platforms/channelio
+ physical-channel/         Locally Added               0 
+
+Directory modules/platforms/channelio/physical-channel
+ ethernet/                 Locally Added               0 
+
+Directory modules/platforms/channelio/physical-channel/ethernet
+ ethernet-physical-channel.cpp Locally Added               0 
+ ethernet-physical-channel.h Locally Added               0 
+ ethernet-physical-channel.awb Locally Added               0 
+ ethernet-physical-channel.bsv Locally Added               0 
+
+Directory modules/platforms
+ physical-platforms/       Locally Added               0 
+
+Directory modules/platforms/physical-platforms
+ xupv5/                    Locally Added               0 
+
+Directory modules/platforms/physical-platforms/xupv5
+ ethernet/                 Locally Added               0 
+
+Directory modules/platforms/physical-platforms/xupv5/ethernet
+ xupv5-ethernet.ucf        Locally Added               0 
+ xilinx.download           Locally Added               0 
+ xilinx.ut                 Locally Added               0 
+ xupv5-ethernet.cpp        Locally Added               0 
+ xilinx.xst                Locally Added               0 
+ xupv5-ethernet.h          Locally Added               0 
+ xupv5-ethernet.awb        Locally Added               0 
+ xupv5-ethernet.bsv        Locally Added               0 
+
+Directory modules/platforms
+ tests/                    Locally Added               0 
+
+Directory modules/platforms/tests
+ ethernet/                 Locally Added               0 
+
+Directory modules/platforms/tests/ethernet
+ loopback/                 Locally Added               0 
+
+Directory modules/platforms/tests/ethernet/loopback
+ EthernetFIFOLoopback.v    Locally Added               0 
+ ramp_loopback_test.c      Locally Added               0 
+ EthernetFIFOLoopback.ucf  Locally Added               0 
+ ethernet-loopback.awb     Locally Added               0 
+
+Directory modules/platforms
+ physical-devices/         Locally Added               0 
+
+Directory modules/platforms/physical-devices
+ ethernet/                 Locally Added               0 
+
+Directory modules/platforms/physical-devices/ethernet
+ EthernetFIFORx.v          Locally Added               0 
+ EthernetFIFOTx.v          Locally Added               0 
+ ethernet-device.awb       Locally Added               0 
+ ramp_fifo.c               Locally Added               0 
+ ethernet-verilog-import.bsv Locally Added               0 
+ ethernet-device.bsv       Locally Added               0 
+ EthernetFIFO.v            Locally Added               0 
+ v5_emac_v1_5_block.v      Locally Added               0 
+ ethernet-c-import.cpp     Locally Added               0 
+ gmii_if.v                 Locally Added               0 
+ ramp_fifo.h               Locally Added               0 
+ ethernet-c-import.h       Locally Added               0 
+ v5_emac_v1_5.v            Locally Added               0 
+
+Directory modules/platforms
+ util/                     Locally Added               0 
+
+Directory modules/platforms/util
+ gate-lib/                 Locally Added               0 
+
+Directory modules/platforms/util/gate-lib
+ Gray2Bin.v                Locally Added               0 
+ Bin2Gray.v                Locally Added               0 
+ Counter.v                 Locally Added               0 
+ CountCompare.v            Locally Added               0 
+ ShiftRegister.v           Locally Added               0 
+ HardRegister.v            Locally Added               0 
+ Register.v                Locally Added               0 
+ FIFOControl.v             Locally Added               0 
+ Const.v                   Locally Added               0 
+ FIFOSemaphore.v           Locally Added               0 
+ gate-lib.awb              Locally Added               0 
+
+
+* Initial check-in of Rimas's RAMP code for the XUPV5 ethernet platform.
+
+* Initial organization of import into AWB.
+
+* Nothing should compile yet. This is just a first cut.
+
+Michael P.
+

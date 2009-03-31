@@ -1,0 +1,12 @@
+%name Ethernet FIFO
+%desc Ethernet FIFO provided by RAMP
+
+%provides ethernet_device
+%requires gatelib
+
+%public  ethernet-verilog-import.bsv ethernet-device.bsv
+%public  ethernet-c-import.h
+%private ethernet-c-import.cpp
+%public  ramp_fifo.h
+%private ramp_fifo.c
+%private EthernetFIFO.v EthernetFIFORx.v EthernetFIFOTx.v gmii_if.v v5_emac_v1_5_block.v v5_emac_v1_5.v

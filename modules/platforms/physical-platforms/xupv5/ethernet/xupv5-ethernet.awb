@@ -1,0 +1,19 @@
+%name XUP Virtex5 Ethernet Platform
+%desc XUP Virtex5 Ethernet Platform
+
+%provides physical_platform
+%requires led_device button_device switch_device ethernet_device ddr2_sdram_device
+
+%attributes xupv5
+
+%public  xupv5-ethernet.bsv
+%public  xupv5-ethernet.h
+%private xupv5-ethernet.cpp
+%private xupv5-ethernet.ucf
+
+%private xilinx.ut
+%private xilinx.xst
+%private xilinx.download
+
+%param FPGA_PART     "xc5vlx110tff1136-1" "FPGA Part ID"
+%param FPGA_POSITION 2                    "FPGA Position (in Xilinx iMPACT)"
